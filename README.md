@@ -1,4 +1,4 @@
-# GRAV-Bench: General Relativistic Visualization Benchmark
+# GRAV-Bench
 
 A comprehensive benchmark for testing LLM and developer capabilities in simulating black hole physics through general relativistic ray tracing.
 
@@ -6,7 +6,7 @@ A comprehensive benchmark for testing LLM and developer capabilities in simulati
 
 GRAV-Bench evaluates the ability to implement physically accurate black hole visualizations using the Schwarzschild metric and geodesic equations. This benchmark tests deep understanding of general relativity, numerical methods, computer graphics, and performance optimization.
 
-**Difficulty Level:** Graduate-level physics + Professional software engineering
+**Difficulty Level:** Graduate-level physics + Professional software engineering (or get assistance from AI Coding Tools such as Claude Code/Cursor)
 
 **Estimated Time:** 20-40 hours for full implementation
 
@@ -212,6 +212,14 @@ Even with sufficient points, implementations automatically fail if:
 3. Energy or momentum conservation error > 5%
 4. Program crashes when rays approach horizon
 5. No visible gravitational lensing effect
+
+---
+
+## Benchmark Results
+
+| Model/Developer | Score | Grade | Implementation | Repository |
+|----------------|-------|-------|----------------|------------|
+| **Claude 4.5 Sonnet** | **90/115** | **A (Excellent)** | Python (NumPy + Numba) | [View Submission](https://github.com/FujiwaraChoki/grav-claude-4.5-sonnet) |
 
 ---
 
